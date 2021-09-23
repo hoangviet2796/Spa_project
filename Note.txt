@@ -1,0 +1,11 @@
+Cách đặt tên class:
+- Để tránh trường hợp đặt tên class trùng nhau sẻ chia theo từng section để đặt tên, áp dụng theo tiêu chuẩn BEM:
+ VD:	navbar-info
+	navbar-info_icon
+	navbar-info-contact_icon
+	navbar-info-contact_text
+
+Thống nhất dùng 1 font chữ Roboto, sans-serif
+Khuyến khích sử dụng code thuần, ko dùng thư viện có sẵn (Có thể dùng grid system tự tạo)
+Web mẫu: https://demo.themeies.com/leospa/
+Không nhất thiết phải giống web mẫu 100%, có thể tùy chỉnh theo ý thích.
