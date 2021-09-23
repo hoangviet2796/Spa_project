@@ -1,0 +1,122 @@
+.header-navbar {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-navbar-logo {
+    width: 50%;
+}
+
+.header-navbar-logo img {
+    display: block;
+    width: 90%;
+    height: 7.7rem;
+}
+
+.header-navbar-item {
+    display: flex;
+    height: 7.7rem;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.header-navbar-item li {
+    line-height: 1.3rem;
+}
+
+.header-navbar-item li a {
+    text-decoration: none;
+    color: var(--black-color);
+    padding: 0px 20px;
+    font-size: 1.3rem;
+    transition: 0.3s linear;
+}
+
+.header-navbar-item li a:hover {
+    color: var(--primary-color);
+}
+
+
+.header-banner-img {
+    position: absolute;
+    right: 0px;
+    width: 43.4%;
+}
+
+.header-banner-backgound {
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    width: 13%;
+}
+
+.header-banner-backgound img {
+    width: 100%;
+}
+
+.header-banner-title {
+    padding: 200px 0px;
+    width: 60%;
+}
+
+.header-banner-title h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.header-banner-title h1 {
+    font-size: 6rem;
+    color: var(--text-color);
+    line-height: 7.5rem;
+    margin-bottom: 25px;
+}
+
+.header-banner-title p {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.header-banner-btn {
+    display: flex;
+}
+
+.watch-video {
+    display: flex;
+    cursor: pointer;
+}
+
+.watch-video:hover .watch-our-story {
+    color: var(--primary-color);
+}
+
+.play-btn {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #fcf5ee;
+}
+
+.play-btn::before {
+    content: "";
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent transparent transparent var(--primary-color);
+}
+
+.watch-our-story {
+    font-size: 1.6rem;
+    line-height: 54px;
+    padding-left: 10px;
+    transition: 0.3s linear;
+}
