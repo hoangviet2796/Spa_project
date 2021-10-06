@@ -1,3 +1,4 @@
+/* HEADER */
 .header-navbar {
     position: absolute;
     top: 0px;
@@ -39,10 +40,15 @@
 }
 
 
+
 .header-banner-img {
     position: absolute;
     right: 0px;
     width: 43.4%;
+}
+
+.header-banner-img img {
+    width: 100%;
 }
 
 .header-banner-backgound {
@@ -57,7 +63,7 @@
 }
 
 .header-banner-title {
-    padding: 200px 0px;
+    padding: 18% 0px;
     width: 60%;
 }
 
@@ -121,20 +127,226 @@
     transition: 0.3s linear;
 }
 
+/* ABLOUT */
+.about-section {
+    position: relative;
+    padding-top: 8rem;
+}
 
+.flower-left {
+    position: absolute;
+    top: 0px;
+    margin: 3rem 30rem;
+}
 
+.flower-right {
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    margin: 3rem 10rem;
+}
+
+.about-section-wrap {
+    flex-direction: column;
+}
+
+.about-section-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section-logo span {
+    font-size: 2rem;
+    margin: 30px;
+}
+.about-section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section-title h1 {
+    font-size: 4.2rem;
+    color: var(--black-color);
+    margin-bottom: 3.2rem;
+}
+
+.about-section-title p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin:0px 10rem 6rem;
+}
+
+.image-section {
+    margin: 10rem 0px;
+}
+
+.image-section-wrap {
+    margin: 0px -2px;
+}
+
+.image {
+    position: relative;
+    padding: 0px 2px;
+}
+
+.img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    padding-top: 120%;
+    position: relative;
+}
+
+.img:hover .image-title {
+    opacity: 0.9;
+}
+
+.image-title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.3s linear;
+}
+
+.image-title p {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+.popular-section {
+    padding-bottom: 80px;
+}
+
+.popular-section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-section-title h1 {
+    font-size: 4.2rem;
+    color: var(--black-color);
+    margin-bottom: 3.2rem;
+}
+
+.popular-section-title p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin:0px 20rem 6rem;
+}
+.popular-section-wrap {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #e3e6ea;
+    transition: 0.3s linear;
+}
+
+.popular-section-wrap img {
+    margin: 20px;
+    display: block;
+}
+
+.popular-section-wrap h1 {
+    font-size: 2.2rem;
+    color: var(--black-color);
+    margin: 20px 0px;
+}
+
+.popular-section-wrap p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.popular-section-btn {
+    height: 44px;
+    align-self: center;
+    margin-bottom: 39px;
+    background-color: var(--black-color);
+}
+
+.popular-section-wrap:hover 
+{
+    box-shadow: 0 5px 20px #f0f0f0;
+}
+
+.popular-section-wrap:hover .popular-section-btn {
+    background-color: var(--primary-color);
+}
+
+.cmt-section {
+    padding: 50px 0px;
+    background-color: #fff9f8;
+}
+
+.cmt-section-wrap {
+    justify-content: center;
+    align-items: center;
+}
+
+.cmt-section-wrap img {
+    margin-bottom: 45px;
+}
+
+.cmt-section-item p {
+    text-align: center;
+    font-size: 1.8rem;
+    margin:0rem 10rem 4.3rem;
+}
+
+.client-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-img {
+    background-image: url(../images/client-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.client-info p {
+    font-size: 2.2rem;
+}
+
+.client-info p span {
+    font-size: 1.5rem;
+}
 /*TEAM*/
 
-.team .gird .title h1{
-
-
+.title h1{
     padding-top: 100px;
     font-size: 6rem;
     text-align: center;
     margin-bottom: 32px;
 }
 
-.team .gird .title p{
+.title p{
     text-align: center;
     font-size: 1.5rem;
     padding-bottom: 15px;
@@ -209,9 +421,6 @@
     display: flex;
 }
 
-.appointment .left{
-  
-}
 
 .appointment .left img{
     width: 100%;

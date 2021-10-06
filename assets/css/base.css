@@ -80,6 +80,10 @@ body {
     transition: 0.3s linear;
 }
 
+.border {
+    border-radius: 20px;
+}
+
 .btn:hover {
     color: var(--black-color);
 }
